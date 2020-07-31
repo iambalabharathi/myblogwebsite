@@ -1,5 +1,114 @@
+:root {
+  --bg-color: #313131;
+  --red: #ff3d24;
+  --white: #fff;
+  --darkred: #cb3018;
+}
+
 * {
-  background-color: #313131;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  color: white;
+  color: var(--white);
+}
+
+html {
+  background-color: var(--bg-color);
+}
+
+header {
+  display: block;
+  position: relative;
+  line-height: 1.5em;
+  padding: 0 20px;
+  background: linear-gradient(to bottom right, #ff644e, var(--darkred));
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a:any-link {
+  cursor: auto;
+}
+
+header nav {
+  display: inline-block;
+  background-color: var(--white);
+  border-radius: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 2px 5px;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+li > a {
+  display: block;
+  color: var(--darkred);
+  padding: 0 5px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+li > a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  max-width: 900px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 0 20px 0;
+}
+
+.logo {
+  width: 800px;
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper > a > .logo {
+    width: 100%;
+  }
+
+  .wrapper > a > .mypic {
+    width: 100px;
+  }
+
+  .wrapper > a > p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px;
+  }
+
+  li > a {
+    font-size: 13px;
+  }
+
+  header nav {
+    border-radius: 15px;
+  }
 }
