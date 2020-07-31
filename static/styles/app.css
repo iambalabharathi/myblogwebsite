@@ -1,8 +1,14 @@
 :root {
   --bg-color: #313131;
-  --red: #ff3d24;
+  --primaryColor: #ff3d24;
   --white: #fff;
-  --darkred: #cb3018;
+  --secondaryColor: #cb3018;
+  --primaryGradient: linear-gradient(
+    to bottom right,
+    #ff644e,
+    var(--secondaryColor)
+  );
+  --titleFontColor2: var(--secondaryColor);
 }
 
 * {
@@ -22,7 +28,7 @@ header {
   position: relative;
   line-height: 1.5em;
   padding: 0 20px;
-  background: linear-gradient(to bottom right, #ff644e, var(--darkred));
+  background: var(--primaryGradient);
 }
 
 p {
@@ -65,7 +71,7 @@ li {
 
 li > a {
   display: block;
-  color: var(--darkred);
+  color: var(--titleFontColor2);
   padding: 0 5px;
   line-height: 30px;
   text-decoration: none;
