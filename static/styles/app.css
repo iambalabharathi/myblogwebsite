@@ -93,13 +93,37 @@ li > a:hover {
   width: 800px;
 }
 
+.devContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.development-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  color: #999797;
+  font-weight: bold;
+}
+
+.devipimage {
+  width: 200px;
+}
+
+.invisible-text {
+  color: #313131;
+}
+
+/* For smaller devices */
+
 @media only screen and (max-width: 800px) {
-  .wrapper > a > .logo {
-    width: 100%;
+  header nav {
+    border-radius: 15px;
   }
 
-  .wrapper > a > .mypic {
-    width: 100px;
+  .wrapper > a > .logo {
+    width: 100%;
   }
 
   .wrapper > a > p {
@@ -111,10 +135,21 @@ li > a:hover {
   }
 
   li > a {
-    font-size: 13px;
+    font-size: 15px;
   }
 
-  header nav {
-    border-radius: 15px;
+  .development-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #999797;
+    font-weight: bold;
+  }
+
+  .devipimage {
+    width: 80px;
+  }
+
+  .invisible-text {
+    font-size: 10px;
   }
 }
