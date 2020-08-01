@@ -2,4 +2,4 @@ baseURL = ""
 languageCode = "en-us"
 title = "Learn with Balabharathi Jayaraman"
 [params]
-    linkedinUrl="www.linkedin.com/in/balabharathijayaraman"
+    linkedinUrl="https://www.linkedin.com/in/balabharathijayaraman"
