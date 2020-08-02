@@ -1,7 +1,11 @@
 {{ define "main" }}
 <div class="content-wrapper">
   <div class="middled-container">
-    {{ partial "authorpic" . }} {{ partial "authorinfo" . }}
+    {{ partial "authorpic" . }} 
+    {{ partial "authorinfo" (dict "name" .Params.name "jobTitle" .Params.jobTitle ) }}
+    <div>
+      {{ .Content }}
+    </div>
   </div>
 </div>
 {{ end }}
