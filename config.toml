@@ -1,7 +1,6 @@
-baseURL = ""
+baseURL = "https://balabharathijayaraman.com"
 languageCode = "en-us"
 title = "Learn with Balabharathi Jayaraman"
 [params]
     linkedinUrl="https://www.linkedin.com/in/balabharathijayaraman"
     picFile="images/mypic.png"
-    rootURL="https://balabharathijayaraman.com"
