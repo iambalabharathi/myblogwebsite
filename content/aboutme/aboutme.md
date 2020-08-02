@@ -1,0 +1,12 @@
+---
+title: "LWBJ - About Me"
+date: 2020-08-02T09:55:29+02:00
+Description: ""
+Tags: []
+Categories: []
+name: "Balabharathi Jayaraman"
+job: "Dev Engineer | Mobile and Web Applications"
+url: "/aboutme"
+---
+
+I'm a dev eningeer working in software development for the past 7 years.
