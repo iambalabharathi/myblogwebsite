@@ -1,6 +1,14 @@
-<html lang="en">
-  {{ partial "head" . }}
-  <body>
-    <h1>{{ .Content }}</h1>
-  </body>
-</html>
+{{ define "main" }}
+<div class="content-area">
+  <div class="wrapper">
+    <br />
+    <img class="profilepic" src="{{.Site.BaseURL}}images/mypic.png" alt="" />
+    <br />
+    <br />
+    <h1 class="large-title">{{ .Params.name }}</h1>
+    <br />
+    <br />
+    <h3 class="body-text1">{{ .Params.job }}</h3>
+  </div>
+</div>
+{{ end }}
