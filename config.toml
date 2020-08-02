@@ -2,5 +2,6 @@ baseURL = "https://balabharathijayaraman.com"
 languageCode = "en-us"
 title = "Learn with Balabharathi Jayaraman"
 [params]
-    linkedinUrl="https://www.linkedin.com/in/balabharathijayaraman"
-    picFile="images/mypic.png"
+    linkedinURL="https://www.linkedin.com/in/balabharathijayaraman"
+    fbURL="https://www.facebook.com/noisyboyelan"
+    twitterURL="https://twitter.com/balabharathijay"

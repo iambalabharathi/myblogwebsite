@@ -93,7 +93,10 @@ header nav li {
 /* ======= Text styles ======= */
 
 .title-style-1 {
-  color: var(--primaryColor);
+  background: -webkit-linear-gradient(var(--primaryColor), var(--secondaryColor));
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 900;
   font-size: 64px;
 }
@@ -128,6 +131,10 @@ header nav li {
   width: 200px;
   border-radius: 50%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-icon {
+  width: 30px;
 }
 
 /* ======= Devlopment Banner ======= */
