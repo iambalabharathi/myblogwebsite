@@ -5,7 +5,7 @@ Description: ""
 Tags: []
 Categories: []
 name: "Balabharathi Jayaraman"
-jobTitle: "Dev Engineer | Mobile and Web Applications"
+jobTitle: "Dev Engineer | Mobile & Web Applications"
 url: "/aboutme"
 ---
 

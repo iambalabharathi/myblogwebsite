@@ -68,8 +68,10 @@ li > a {
 }
 
 li > a:hover {
+  display: block;
   color: #fff;
   background-color: #cb3018;
+  text-decoration: none;
 }
 
 /* ======= Navigation bar Specific Styles ======= */
