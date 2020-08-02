@@ -5,7 +5,11 @@
     <div class="content-area">
       <div class="wrapper">
         <br />
-        <img class="profilepic" src={{ "images/mypic.png" | absURL }} alt="" />
+        <img
+          class="profilepic"
+          src="{{.Site.BaseURL}}images/mypic.png"
+          alt=""
+        />
         <br />
         <br />
         <h1 class="large-title">{{ .Params.name }}</h1>
