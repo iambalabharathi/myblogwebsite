@@ -156,10 +156,6 @@ header nav li {
   width: 100px;
 }
 
-.invisible-text {
-  color: var(--bg-color);
-}
-
 /* ======= Smaller width styles ======= */
 
 @media only screen and (max-width: 800px) {
@@ -208,9 +204,5 @@ header nav li {
 
   .devipimage {
     width: 50px;
-  }
-
-  .invisible-text {
-    font-size: 10px;
   }
 }
