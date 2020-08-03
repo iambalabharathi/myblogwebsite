@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="content-wrapper">
+    <br>
+    <h3 style="color: #ff3d24;" class="description-style-1">{{ "Work like a Pro!" }}</h3>
+    {{ range .Pages }}
+        {{ partial "card-component" . }}
+    {{ end }}
+  </div>
+{{ end }}

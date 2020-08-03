@@ -1,0 +1,17 @@
+<a href="{{ .Permalink }}">
+    <div class="card-component">
+    <table>
+        <tr>
+            <h3 class="description-style-1">{{ .Title }}</h3>
+        </tr>
+        <tr>
+            <td style="color: #ff3d24; font-weight:900">Published on {{ dateFormat "Monday, Jan 2, 2006" .Date }}</td>
+        </tr>
+        <tr>
+            <td>
+                <p>{{ substr .Content 3 300 }}</p>
+            </td>
+        </tr>
+    </table>
+</div>
+</a>
