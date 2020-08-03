@@ -52,6 +52,7 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 0.1px;
   padding-inline-end: 0.1px;
+  margin: 0 7px;
 }
 
 li {
@@ -68,10 +69,8 @@ li > a {
 }
 
 li > a:hover {
-  display: block;
-  color: #fff;
-  background-color: #cb3018;
-  text-decoration: none;
+  color: #cb3018;
+  text-decoration: underline;
 }
 
 a {
@@ -105,11 +104,29 @@ header nav li {
   font-size: 64px;
 }
 
-.description-style-1 {
+.description-style-1, .card-title {
   font-weight: 900;
   font-size: 28px;
 }
 
+.page-title, .page-description, .content-page-title {
+  font-weight: 750;
+  font-size: 40px;
+  color: rgb(227, 227, 227);
+  margin-left: 10px;
+}
+
+.content-page-title {
+  color: var(--primaryColor);
+  margin-left: 0;
+}
+
+.page-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 100;
+}
 /* ======= Container Styles ======= */
 
 .content-wrapper {
@@ -118,7 +135,7 @@ header nav li {
 }
 
 .card-component {
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 20px;
   background: rgb(29, 29, 29);
   border-radius: 20px;
@@ -131,6 +148,10 @@ header nav li {
   margin-left: auto;
   margin-right: auto;
   padding: 25px 0 20px 0;
+}
+.card-date {
+  color: var(--primaryColor);
+  font-weight: 700;
 }
 
 /* ======= Images ======= */
@@ -174,6 +195,28 @@ header nav li {
   /* ======= Text styles ======= */
   .title-style-1 {
     font-size: 36px;
+  }
+
+  .page-title, .page-description {
+    font-weight: 750;
+    font-size: 32px;
+    color: rgb(227, 227, 227);
+  }
+  
+  .page-description {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  .card-date {
+    font-size: 13px;
+  }
+
+  .card-title {
+    font-size: 18px;
   }
 
   .description-style-1 {

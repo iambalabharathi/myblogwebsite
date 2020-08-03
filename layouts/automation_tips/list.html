@@ -1,7 +1,8 @@
 {{ define "main" }}
 <div class="content-wrapper">
     <br>
-    <h3 style="color: #ff3d24;" class="description-style-1">{{ "Work like a Pro!" }}</h3>
+    <h3 class="page-title">{{ "Work like a Pro!" }}</h3>
+    <h5 class="page-description">Tips to improve your day to day productivity.</h5>
     {{ range .Pages }}
         {{ partial "card-component" . }}
     {{ end }}
