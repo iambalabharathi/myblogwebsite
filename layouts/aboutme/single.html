@@ -1,12 +1,12 @@
 {{ define "main" }}
 <div class="content-wrapper">
   <div class="middled-container">
-    {{ partial "authorpic" . }} 
-    {{ partial "authorinfo" (dict "name" .Params.name "jobTitle" .Params.jobTitle ) }}
+    {{ partial "owner-pic" . }} 
+    {{ partial "owner-info" (dict "name" .Params.name "jobTitle" .Params.jobTitle ) }}
     <div>
       {{ .Content }}
     </div>
-    {{ partial "socialicons" . }}
+    {{ partial "social-icons-group" . }}
   </div>
 </div>
 {{ end }}
