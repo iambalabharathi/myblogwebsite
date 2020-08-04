@@ -1,9 +1,10 @@
 {{ define "main" }}
 <div class="content-wrapper">
     <br>
-    <div class="card-component">
-        <span class="content-page-title">{{ .Title }}</span>
-        <p>{{ .Content }}</p>
-    </div>
+    <span class="content-page-title">{{ .Title }}</span>
+    <br>
+    <br>
+    <span class="card-date" style="font-size: 18px;">Published on {{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>
+    <p>{{ .Content }}</p>
 </div>
 {{ end }}

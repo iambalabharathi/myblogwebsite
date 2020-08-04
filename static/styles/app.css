@@ -12,6 +12,7 @@
   );
   --titleFontColor2: var(--secondaryColor);
   --font: "Open Sans", sans-serif;
+  --bg-color-dimmed: #929292;
 }
 
 * {
@@ -105,8 +106,8 @@ header nav li {
 }
 
 .description-style-1, .card-title {
-  font-weight: 900;
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .page-title, .page-description, .content-page-title {
@@ -117,7 +118,7 @@ header nav li {
 }
 
 .content-page-title {
-  color: var(--primaryColor);
+  color: var(--white);
   margin-left: 0;
 }
 
@@ -154,7 +155,7 @@ header nav li {
   padding: 25px 0 20px 0;
 }
 .card-date {
-  color: var(--primaryColor);
+  color: var(--bg-color-dimmed);
   font-weight: 700;
 }
 
@@ -201,13 +202,13 @@ header nav li {
     font-size: 36px;
   }
 
-  .page-title, .page-description {
+  .page-title, .page-description, .content-page-date {
     font-weight: 750;
     font-size: 32px;
     color: rgb(227, 227, 227);
   }
   
-  .page-description {
+  .page-description, .content-page-date {
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -215,12 +216,16 @@ header nav li {
     font-weight: 100;
   }
 
+  .content-page-date {
+    margin-left: 0;
+  }
+
   .card-date {
     font-size: 13px;
   }
 
   .card-title {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .description-style-1 {

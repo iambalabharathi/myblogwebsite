@@ -1,7 +1,7 @@
 ---
 title: "Optimize your Google Search"
 date: 2020-08-04T22:32:38+02:00
-Description: ""
+Description: "This post is explaining the various ways we can optimize the google search process, which can be teadeous at times. The tips which I'm going to share with you can get the done in within few seconds."
 Tags: []
 Categories: []
 url: "wlp/One"
