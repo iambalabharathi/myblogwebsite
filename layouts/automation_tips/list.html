@@ -1,10 +1,10 @@
 {{ define "main" }}
-<div class="content-wrapper">
+  <div class="content-wrapper">
     <br>
-    <h3 class="page-title">{{ "Work like a Pro!" }}</h3>
-    <h5 class="page-description">Tips to improve your day to day productivity.</h5>
-    {{ range .Pages }}
-        {{ partial "card-component" . }} 
-    {{ end }} 
+      <h3 class="page-title">{{ "Work like a Pro!" }}</h3>
+      <h5 class="page-description">Tips to improve your day to day productivity.</h5>
+      {{ range .Pages }}
+          {{ partial "card-component" . }} 
+      {{ end }} 
   </div>
 {{ end }}
