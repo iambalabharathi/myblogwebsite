@@ -1,7 +1,7 @@
 ---
 title: "Automate the repetitive tasks with scripting"
 date: 2020-08-04T22:36:30+02:00
-Description: ""
+Description: "All scripting languages are programming languages. The scripting language is basically a language where instructions are written for a run time environment. "
 Tags: []
 Categories: []
 url: "wlp/Two"
