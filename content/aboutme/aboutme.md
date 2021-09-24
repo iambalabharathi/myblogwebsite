@@ -2,8 +2,8 @@
 title: "LWBJ - About Me"
 date: 2020-08-02T09:55:29+02:00
 name: "Balabharathi Jayaraman"
-jobTitle: "Dev Engineer | Mobile & Web Applications"
+jobTitle: "Senior Automation Developer"
 url: "/aboutme"
 ---
 
-I'm a dev engineer working in software development for the past 7 years.
+I'm a Senior Automation Developer with 7+ years of experience.
