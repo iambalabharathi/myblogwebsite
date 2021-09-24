@@ -1,1 +1,1 @@
-Visit 👉 [balabharathijayaraman.com](https://balabharathijaryaman.com)
+Visit 👉 [balabharathijayaraman.com](https://balabharathijayaraman.com)
